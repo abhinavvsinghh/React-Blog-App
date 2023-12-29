@@ -1,0 +1,151 @@
+div.hero-blog-container {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  padding-top: 16rem;
+  padding-bottom: 8rem;
+  background: no-repeat center center;
+  background-color: #6c757d;
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+div.hero-blog-container:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #212529;
+  opacity: 0.5;
+}
+
+.blog-container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+  padding-right: 3rem;
+  padding-left: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.blog-heading {
+  width: 70vw;
+}
+
+div.hero-blog-container .blog-heading {
+  color: #fff;
+}
+
+div.hero-blog-container .blog-heading h1 {
+  font-size: 2.25rem;
+}
+
+.meta {
+  line-height: 1.1;
+  display: block;
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: 300;
+  font-style: italic;
+  font-family: "Lora", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.blog-buttons {
+  position: absolute;
+  bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 20px;
+}
+
+.like {
+  background: #d5b60a;
+  width: 100px;
+  border: none;
+  font-size: 1.3em;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.edit,
+.delete {
+  border: none;
+  padding: 12px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.like-button {
+  border-right: 2px solid #fff;
+  padding-right: 10px;
+  color: #fff;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+.like-count {
+  padding-left: 10px;
+  color: #fff;
+}
+
+.edit-button,
+.delete-button {
+  color: #fff;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+.edit-delete {
+  display: flex;
+  gap: 10px;
+}
+
+.edit {
+  background: #007bff;
+}
+
+.delete {
+  background: #d11a2a;
+}
+
+.like:hover {
+  background: #ac9301;
+}
+
+.edit:hover {
+  background: #0056b3;
+}
+
+.delete:hover {
+  background: #9a010e;
+}
+
+.blog-content {
+  margin: 20px;
+  padding: 20px;
+}
+
+.blog-content p {
+  line-height: 1.5;
+  display: block;
+  text-align: center;
+  font-size: 1.25rem;
+  font-family: "Lora", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
+}

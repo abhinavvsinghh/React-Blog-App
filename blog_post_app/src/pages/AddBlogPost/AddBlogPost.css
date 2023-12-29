@@ -1,0 +1,62 @@
+.addBlog {
+  padding: 100px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #ffffff;
+}
+
+.addBlogForm {
+  background: #1d1d1d;
+  width: 70vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px 0;
+  border-radius: 10px;
+}
+
+.inputBox {
+  position: relative;
+  width: 50vw;
+}
+
+.addInput {
+  width: 100%;
+  margin: 10px;
+  font-size: 25px;
+  background: #1d1d1d;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 5px;
+  outline: none;
+  color: #fff;
+  padding: 20px;
+}
+
+.addText {
+  font-size: 20px;
+  height: 70vh;
+}
+
+.inputBox input:valid,
+.inputBox input:focus,
+.inputBox textarea:valid,
+.inputBox textarea:focus {
+  border: 1px solid #00dfc4;
+}
+
+.addSubmit {
+  color: white;
+  background-color: #00dfc4;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.addSubmit:hover{
+  background-color: #009b89;
+}
